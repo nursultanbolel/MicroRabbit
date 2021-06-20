@@ -106,7 +106,7 @@ namespace MicroRabbit.Infra.Bus
 
             try
             {
-                //İt is part of microservices
+                //It is part of microservices
                 await ProcessEvent(eventName, message).ConfigureAwait(false);
             }
             catch (Exception ex)
